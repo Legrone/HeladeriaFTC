@@ -1,0 +1,150 @@
+/* Importación de Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&family=Medula+One&display=swap');
+
+/* RESET GENERAL */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'MedievalSharp', cursive;
+  background-image: url(../Imagen/copos-de-nieve-wikimedia-commons.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: blue;
+}
+
+/* HEADER */
+header {
+  background-color: #1D3557;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.titulo-principal {
+  color: #F1FAEE;
+  font-family: "Black Ops One", system-ui;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.logo-contenedor {
+  margin-top: 15px;
+}
+
+.logo {
+  width: 300px;
+  border: 10px inset blue;
+  border-radius: 10px;
+}
+
+.logo-sabores {
+  width: 300px;
+  border: 10px inset rgb(5, 142, 183);
+  border-radius: 10px;
+}
+
+.frase {
+  color: #A8DADC;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.PapaFlex{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.FlexHijo{
+  width: 110px;
+  height: 50px;
+  border: solid black 3px;
+  background-color: white;
+}
+
+
+/* MAIN */
+main {
+  background-color: rgba(168, 218, 220, 0.9);
+  padding: 40px 20px;
+  text-align: center;
+} 
+
+.subtitulo {
+  color: #004d40;
+  font-family: "Black Ops One", system-ui;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+h1{
+  color: #004d40;
+  font-family: "Black Ops One", system-ui;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+
+.sabores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boton {
+  background-color: #81d4fa;
+  color: #004d40;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #4fc3f7;
+  transform: scale(1.05);
+}
+
+ul{
+  color: #2D2D2D;
+  list-style: none;
+  font-size: 2em;
+  padding: 15px 15px;
+  line-height: 2;
+}
+
+/* modificaciones de BS */
+.lineal{
+  font-family: "Black Ops One", system-ui;
+}
+
+.letra{
+  color: black;
+   font-size: 1.8em;
+}
+
+.lineal{
+  color: #4A8FA1;
+  background-color: #D9F3F5;
+  padding: 15px 15px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #F1FAEE;
+  color: #2D2D2D;
+  padding: 40px;
+  text-align: center;
+}
+
+.agradecimiento {
+  font-family: "Black Ops One", system-ui;
+  font-size: 2.5em;
+  margin: 0;
+}
