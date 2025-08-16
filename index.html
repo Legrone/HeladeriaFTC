@@ -19,13 +19,20 @@
   <header>
     <section class="PapaFlex">
       
-      <div class="FlexHijo">
-        <p> Contactanos </p>
-      </div>
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-outline-primary">Contactanos</button>
 
-      <div class="FlexHijo">
-        <p> Idioma </p>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Idioma
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Español</a></li>
+          <li><a class="dropdown-item" href="#">Ingles</a></li>
+          <li><a class="dropdown-item" href="#">Portugues</a></li>
+        </ul>
       </div>
+    </div>
 
     </section>
 
