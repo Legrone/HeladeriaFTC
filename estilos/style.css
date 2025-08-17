@@ -16,6 +16,7 @@ body {
   color: blue;
 }
 
+/* ------------------------------------------------------------------------------------------------- */
 /* HEADER */
 header {
   background-color: #1D3557;
@@ -65,10 +66,10 @@ header {
   background-color: white;
 }
 
-
+/* ----------------------------------------------------------------------------------------------------------------------------- */
 /* MAIN */
 main {
-  background-color: rgba(168, 218, 220, 0.9);
+  background-color: rgba(168, 218, 220, 0.9); /* quiero usar la transparencia en todo el main pero se me limita y no pude corregirlo */
   padding: 40px 20px;
   text-align: center;
 } 
@@ -135,6 +136,7 @@ ul{
   padding: 15px 15px;
 }
 
+/* -------------------------------------------------------------------------------------------------------------------------------- */
 /* FOOTER */
 footer {
   background-color: #F1FAEE;
@@ -147,4 +149,30 @@ footer {
   font-family: "Black Ops One", system-ui;
   font-size: 2.5em;
   margin: 0;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* Celular */
+@media (max-width:390px){
+  header{
+    font-size: 0.5;
+  }
+}
+
+
+@media (max-width:390px){
+  main{
+    font-size: 0.5;
+    background-color: rgba(168, 218, 220);
+  }
+
+  /* aca tengo la modificacion del main pero en cremas.html se me guardó la separacion dentro del html y estoy buscando como modificarlo
+  para que quede bien aca */
+}
+
+
+@media (max-width:390px){
+  footer{
+    font-size: 0.5em;
+  }
 }
