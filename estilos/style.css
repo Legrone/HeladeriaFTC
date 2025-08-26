@@ -174,3 +174,47 @@ footer {
     font-size: 0.5em;
   }
 }
+
+/* PC 1200 */
+
+@media only screen and (min-width:769px) and (max-width: 1279px){
+  header{
+    font-size: 0.5;
+  }
+
+  main{
+    font-size: 0.5;
+    background-color: rgba(168, 218, 220);
+  }
+
+  .listado{
+  display:flex;
+  gap: 300px;
+  }
+
+
+  footer{
+    font-size: 0.5em;
+  }
+}
+
+/* TABLET */
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+  header{
+    font-size: 0.5;
+  }
+
+  main{
+    font-size: 0.5;
+    background-color: rgba(168, 218, 220);
+  }
+
+  .listado{
+  display:contents;
+  }
+
+  footer{
+    font-size: 0.5em;
+  }
+}
