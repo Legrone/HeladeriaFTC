@@ -66,8 +66,8 @@ header {
 /* ----------------------------------------------------------------------------------------------------------------------------- */
 /* MAIN */
 main {
-  background-color: rgba(168, 218, 220, 0.9); /* quiero usar la transparencia en todo el main pero se me limita y no pude corregirlo */
-  padding: 40px 20px;
+  background-color: rgba(168, 218, 220, 0.9);
+  padding: 20px 10px;
   text-align: center;
 } 
 
@@ -117,6 +117,12 @@ ul{
   line-height: 2;
 }
 
+.listado{
+  display: flex;
+  margin: 150px;
+  gap: 900px;
+}
+
 /* modificaciones de BS */
 .lineal{
   font-family: "Black Ops One", system-ui;
@@ -131,11 +137,6 @@ ul{
   color: #4A8FA1;
   background-color: #D9F3F5;
   padding: 15px 15px;
-}
-
-.listado{
-  display: flex;
-  gap: 1000px;
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------------- */
@@ -155,7 +156,7 @@ footer {
 
 /* --------------------------------------------------------------------------------------------------------------------------------- */
 /* Celular */
-@media (max-width:320px){
+@media only screen and (min-width:320px) and (max-width: 390px){
   header{
     font-size: 0.5;
   }
@@ -163,6 +164,10 @@ footer {
   main{
     font-size: 0.5;
     background-color: rgba(168, 218, 220);
+  }
+
+  .listado{
+  display:contents;
   }
 
   footer{
