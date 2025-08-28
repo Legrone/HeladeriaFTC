@@ -1,0 +1,76 @@
+main {
+  background-color: rgba(168, 218, 220, 0.9);
+  padding: 20px 10px;
+  text-align: center;
+} 
+
+.subtitulo {
+  color: #004d40;
+  font-family: "Black Ops One", system-ui;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+h1{
+  color: #004d40;
+  font-family: "Black Ops One", system-ui;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+
+.sabores {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.boton {
+  background-color: #81d4fa;
+  color: #004d40;
+  padding: 15px 25px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #4fc3f7;
+  transform: scale(1.05);
+}
+
+ul{
+  color: #2D2D2D;
+  list-style: none;
+  font-size: 2em;
+  padding: 15px 15px;
+  line-height: 2;
+}
+
+.listado{
+  display: flex;
+  margin: 150px;
+  gap: 900px;
+}
+
+//modificaciones de BS 
+.lineal{
+  font-family: "Black Ops One", system-ui;
+    color: #4A8FA1;
+  background-color: #D9F3F5;
+  padding: 15px 15px;
+}
+
+.letra{
+  color: black;
+   font-size: 1.8em;
+}
+
+/* .lineal{
+  color: #4A8FA1;
+  background-color: #D9F3F5;
+  padding: 15px 15px;
+} */
