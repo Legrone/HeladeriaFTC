@@ -1,3 +1,5 @@
+@use "variables" as*;
+
 main {
   background-color: rgba(168, 218, 220, 0.9);
   padding: 20px 10px;
@@ -68,9 +70,3 @@ ul{
   color: black;
    font-size: 1.8em;
 }
-
-/* .lineal{
-  color: #4A8FA1;
-  background-color: #D9F3F5;
-  padding: 15px 15px;
-} */

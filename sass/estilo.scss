@@ -1,9 +1,14 @@
-@use "partials/header.scss";
-
-@use "partials/main";
-
+/* body */
 @use "partials/body";
 
+/* header */
+@use "partials/header.scss";
+
+/* main */
+@use "partials/main";
+
+/* footer */
 @use "partials/footer";
 
+/* MediaQ */
 @use "partials/diversidad"
