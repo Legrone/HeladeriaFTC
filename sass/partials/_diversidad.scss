@@ -8,7 +8,7 @@
 
   main{
     font-size: 0.5;
-    background-color: rgba(168, 218, 220);
+    background-color: $celeste;
   }
 
   .listado{
@@ -16,7 +16,7 @@
   }
 
   footer{
-    font-size: 0.5em;
+    font-size: 0.5;
   }
 }
 
@@ -28,8 +28,8 @@
   }
 
   main{
-    font-size: 0.5;
-    background-color: rgba(168, 218, 220);
+    font-size: 0.5s;
+    background-color: $celeste;
   }
 
   .listado{
@@ -39,7 +39,7 @@
 
 
   footer{
-    font-size: 0.5em;
+    font-size: 0.5;
   }
 }
 
@@ -52,7 +52,7 @@
 
   main{
     font-size: 0.5;
-    background-color: rgba(168, 218, 220);
+    background-color: $celeste;
   }
 
   .listado{
@@ -60,6 +60,6 @@
   }
 
   footer{
-    font-size: 0.5em;
+    font-size: 0.5;
   }
 }

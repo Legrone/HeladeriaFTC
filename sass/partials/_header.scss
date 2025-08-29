@@ -21,9 +21,8 @@ header {
 }
 
 .titulo-principal {
+  @extend .ayudin;
   color: #F1FAEE;
-  font-family: "Black Ops One", system-ui;
-  font-size: 2.5em;
   text-align: center;
 }
 
@@ -32,15 +31,13 @@ header {
 }
 
 .logo {
-  width: 300px;
+  @extend .logotravel;
   border: 10px inset blue;
-  border-radius: 10px;
 }
 
 .logo-sabores {
-  width: 300px;
+  @extend .logotravel;
   border: 10px inset rgb(5, 142, 183);
-  border-radius: 10px;
 }
 
 .frase {

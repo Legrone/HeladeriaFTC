@@ -8,7 +8,5 @@ footer {
 }
 
 .agradecimiento {
-  font-family: "Black Ops One", system-ui;
-  font-size: 2.5em;
-  margin: 0;
+  @extend .ayudin;
 }

@@ -1,3 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&family=Medula+One&display=swap');
+
+$verde: #004d40;
+$celeste: #a8dadce6;
+$blackops: "Black Ops One", system-ui;
+
+.ayudin{
+  font-family: $blackops;
+  font-size: 2.5em;
+}
+
+.logotravel{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.verdes{
+    color: $verde;
+    margin-bottom: 30px;
+}
