@@ -69,6 +69,10 @@ header {
   font-size: 1.2em;
 }
 
+.accordion-body {
+  color: #A8DADC;
+}
+
 /* main */
 main {
   background-color: rgba(168, 218, 220, 0.9019607843);
