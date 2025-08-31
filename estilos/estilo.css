@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&family=Medula+One&display=swap");
-.ayudin, .agradecimiento, .subtitulo, h1, .titulo-principal {
+.ayudin, .agradecimiento, .subtitulo, h1, .titulo-principal, .animate__animated {
   font-family: "Black Ops One", system-ui;
   font-size: 2.5em;
 }
@@ -28,7 +28,7 @@ body {
 
 /* header */
 header {
-  background-color: #1D3557;
+  background-image: linear-gradient(to top, rgba(168, 218, 220, 0.9019607843), rgb(19, 202, 243), rgb(78, 78, 245), rgb(34, 34, 245), rgb(1, 1, 72));
   padding: 20px 0;
   text-align: center;
 }
@@ -71,6 +71,11 @@ header {
 
 .accordion-body {
   color: #A8DADC;
+}
+
+.animate__animated {
+  color: #F1FAEE;
+  text-align: center;
 }
 
 /* main */
@@ -121,6 +126,10 @@ h1 {
   gap: 800px;
 }
 
+.accordion-body {
+  color: black;
+}
+
 .lineal {
   font-family: "Black Ops One", system-ui;
   color: #4A8FA1;
@@ -142,7 +151,7 @@ h1 {
 
 /* footer */
 footer {
-  background-color: #F1FAEE;
+  background-image: linear-gradient(to top, white, rgba(168, 218, 220, 0.9019607843));
   color: #2D2D2D;
   padding: 40px;
   text-align: center;
