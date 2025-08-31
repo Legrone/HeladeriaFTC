@@ -118,7 +118,7 @@ h1 {
 .listado {
   display: flex;
   margin: 150px;
-  gap: 900px;
+  gap: 800px;
 }
 
 .lineal {
