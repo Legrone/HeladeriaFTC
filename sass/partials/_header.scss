@@ -55,3 +55,8 @@ header {
   color: #F1FAEE;
   text-align: center;
 }
+
+.gira{
+  @extend .logotravel;
+  border: 10px inset rgb(5, 142, 183);
+}

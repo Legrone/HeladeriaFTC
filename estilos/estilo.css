@@ -7,7 +7,7 @@
   font-size: 2.5em;
 }
 
-.logotravel, .logo, .logo-sabores {
+.logotravel, .logo, .logo-sabores, .gira {
   width: 300px;
   border-radius: 10px;
 }
@@ -19,7 +19,7 @@
 
 body {
   font-family: "MedievalSharp", cursive;
-  background-image: url(../Imagen/copos-de-nieve-wikimedia-commons.jpg);
+  background-image: url(../imagen/copos-de-nieve-wikimedia-commons.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,6 +76,10 @@ header {
 .animate__animated {
   color: #F1FAEE;
   text-align: center;
+}
+
+.gira {
+  border: 10px inset rgb(5, 142, 183);
 }
 
 /* main */
@@ -145,8 +149,8 @@ h1 {
 .orden {
   display: grid;
   grid-template-areas: "titulo titulo titulo" "cucurucho imagen1 imagen2" "cucurucho imagen3 imagen3";
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: 25% 30%;
+  grid-template-rows: 600px 600px 250px 150px;
 }
 
 /* footer */
