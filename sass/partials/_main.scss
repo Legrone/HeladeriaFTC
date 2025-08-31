@@ -67,3 +67,24 @@ h1{
   color: black;
    font-size: 1.8em;
 }
+
+
+.orden{
+  display: grid;
+  grid-template-areas:
+
+  "titulo titulo titulo"
+
+  "cucurucho imagen1 imagen2"
+
+  "cucurucho imagen3 imagen3"
+  ;
+
+
+  grid-template-columns: auto;
+
+
+
+
+  grid-template-rows: auto;
+}
