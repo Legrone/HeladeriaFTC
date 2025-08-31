@@ -15,8 +15,19 @@
   display:contents;
   }
 
+  .orden{
+    display:block;
+  }
+
+  .subtitulo{
+    font-size: 2em;
+  }
+
   footer{
     font-size: 0.5;
+    display:grid;
+    padding: 10px;
+    gap: 10px;
   }
 }
 
@@ -34,7 +45,7 @@
 
   .listado{
   display:flex;
-  gap: 300px;
+  gap: 200px;
   }
 
 
@@ -59,7 +70,18 @@
   display:contents;
   }
 
+  .orden{
+    display:block;
+  }
+
+  .subtitulo{
+    font-size: 2em;
+  }
+
   footer{
     font-size: 0.5;
+    display:grid;
+    padding: 10px;
+    gap: 10px;
   }
 }
