@@ -57,6 +57,7 @@ h1{
 
 .accordion-body{
   color: black;
+  font-size: 1.2em;
 }
 
 //modificaciones de BS 
@@ -77,16 +78,34 @@ h1{
   display: grid;
   grid-template-areas:
 
-  "titulo titulo titulo"
+  "- - -"
 
   "cucurucho imagen1 imagen2"
 
-  "cucurucho imagen3 imagen3"
+  "cucurucho imagen3 imagen4"
   ;
 
 
   grid-template-columns: 25% 30%;
 
 
-  grid-template-rows:600px 600px 250px 150px ;
+  grid-template-rows:0px 600px 250px;
+}
+
+.ordena2{
+  display: grid;
+  grid-template-areas:
+
+  "- - -"
+
+  "cucurucho imagen1 imagen2"
+
+  "cucurucho imagen3 imagen4"
+  ;
+
+
+  grid-template-columns: 25% 30%;
+
+
+  grid-template-rows:600px 600px 250px;
 }

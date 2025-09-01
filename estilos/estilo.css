@@ -69,10 +69,6 @@ header {
   font-size: 1.2em;
 }
 
-.accordion-body {
-  color: #A8DADC;
-}
-
 .animate__animated {
   color: #F1FAEE;
   text-align: center;
@@ -132,6 +128,7 @@ h1 {
 
 .accordion-body {
   color: black;
+  font-size: 1.2em;
 }
 
 .lineal {
@@ -148,9 +145,16 @@ h1 {
 
 .orden {
   display: grid;
-  grid-template-areas: "titulo titulo titulo" "cucurucho imagen1 imagen2" "cucurucho imagen3 imagen3";
+  grid-template-areas: "- - -" "cucurucho imagen1 imagen2" "cucurucho imagen3 imagen4";
   grid-template-columns: 25% 30%;
-  grid-template-rows: 600px 600px 250px 150px;
+  grid-template-rows: 0px 600px 250px;
+}
+
+.ordena2 {
+  display: grid;
+  grid-template-areas: "- - -" "cucurucho imagen1 imagen2" "cucurucho imagen3 imagen4";
+  grid-template-columns: 25% 30%;
+  grid-template-rows: 600px 600px 250px;
 }
 
 /* footer */
