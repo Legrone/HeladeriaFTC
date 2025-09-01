@@ -147,7 +147,7 @@ h1 {
   display: grid;
   grid-template-areas: "- - -" "cucurucho imagen1 imagen2" "cucurucho imagen3 imagen4";
   grid-template-columns: 25% 30%;
-  grid-template-rows: 0px 600px 250px;
+  grid-template-rows: 0px 600px 250px 100px;
 }
 
 .ordena2 {
@@ -189,6 +189,9 @@ footer {
     padding: 10px;
     gap: 10px;
   }
+  .ordena2 {
+    display: block;
+  }
 }
 /* PC 1200 */
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
@@ -205,6 +208,12 @@ footer {
   }
   footer {
     font-size: 0.5;
+  }
+  .orden {
+    display: block;
+  }
+  .ordena2 {
+    display: flex;
   }
 }
 /* TABLET */
@@ -230,6 +239,9 @@ footer {
     display: grid;
     padding: 10px;
     gap: 10px;
+  }
+  .ordena2 {
+    display: block;
   }
 }
 
