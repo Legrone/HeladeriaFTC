@@ -50,10 +50,8 @@ h1{
 }
 
 .listado{
-  display: flex;
-  margin: 150px;
-  gap: 800px;
-}
+  flex-wrap: wrap;
+  justify-content: space-between;}
 
 .accordion-body{
   color: black;
