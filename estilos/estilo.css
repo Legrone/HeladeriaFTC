@@ -7,8 +7,13 @@
   font-size: 2.5em;
 }
 
-.logotravel, .logo, .logo-sabores, .gira {
+.logotravel, .logo, .gira {
   width: 300px;
+  border-radius: 10px;
+}
+
+.logohelado, .logo-sabores {
+  width: 900px;
   border-radius: 10px;
 }
 
@@ -76,6 +81,10 @@ header {
 
 .gira {
   border: 10px inset rgb(5, 142, 183);
+}
+
+.accordion-cremas {
+  font-size: 3em;
 }
 
 /* main */

@@ -36,7 +36,7 @@ header {
 }
 
 .logo-sabores {
-  @extend .logotravel;
+  @extend .logohelado;
   border: 10px inset rgb(5, 142, 183);
 }
 
@@ -55,4 +55,8 @@ header {
 .gira{
   @extend .logotravel;
   border: 10px inset rgb(5, 142, 183);
+}
+
+.accordion-cremas{
+  font-size: 3em;
 }
