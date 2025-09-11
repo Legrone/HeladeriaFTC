@@ -12,7 +12,7 @@
   border-radius: 10px;
 }
 
-.logohelado, .logo-sabores {
+.logohelado, .logo-sabores, .carousel-item {
   width: 900px;
   border-radius: 10px;
 }
@@ -85,6 +85,11 @@ header {
 
 .accordion-cremas {
   font-size: 3em;
+}
+
+.carousel-item {
+  border: 10px inset rgb(5, 142, 183);
+  transition: transform 0.6s ease-in-out;
 }
 
 /* main */
@@ -201,6 +206,18 @@ footer {
     display: block;
   }
 }
+.logohelado {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.accordion-cremas {
+  font-size: 0.5;
+}
+
+/* .logo-sabores{
+  background-image: url(".../imagen/chocoC/images.jpg");
+} */
 /* PC 1200 */
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   header {
