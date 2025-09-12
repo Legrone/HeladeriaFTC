@@ -97,17 +97,6 @@ h1{
 
 
 .ordena2{
-  display: grid;
-  grid-template-areas:
-
-  "cucurucho imagen1 imagen2"
-
-  "cucurucho imagen3 imagen4"
-  ;
-
-
-  grid-template-columns: 25% 30%;
-
-
-  grid-template-rows:600px 600px 250px;
+  display: flex;
+  flex-direction: column;
 }
