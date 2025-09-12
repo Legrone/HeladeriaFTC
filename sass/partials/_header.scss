@@ -40,6 +40,12 @@ header {
   border: 10px inset rgb(5, 142, 183);
 }
 
+.logo-tamaños{
+  @extend .logohelado;
+  width: 300px;
+  border: 10px inset rgb(5, 142, 183);
+}
+
 .frase {
   color: #A8DADC;
   margin-top: 10px;
