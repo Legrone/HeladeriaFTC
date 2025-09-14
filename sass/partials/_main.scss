@@ -72,7 +72,101 @@ h1{
 }
 
 
-.grid-tamaños{
+.empty {
+  grid-area: unset;
+}
+
+.carousel-item{
+  width: 400px;
+}
+
+.preenvasados {
+  display: flex;
+  justify-content: center;
+  gap: 30px;               
+  flex-wrap: wrap;   
+}
+
+.item {
+  text-align: center;
+}
+
+.item img {
+  width: 220px;
+  height: 220px;
+  border: 3px solid #19a0ff;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.item ul {
+  list-style-type: disc;
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+
+.grid-tamanos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: start;
+  margin: 40px;
+}
+
+.item p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.negro{
+  width: 70%;
+}
+
+.eleccion{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.elija{
+  width: 30%;
+  border:3px solid #4fc3f7;
+}
+
+.juan{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid-tamaños{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-areas: 
@@ -82,20 +176,6 @@ h1{
   gap: 20px;
   align-items: center;
   justify-items: center;
-}
-
-.empty {
-  grid-area: unset;
-}
-
-.carousel-item{
-  width: 400px;
-}
-
-
-.ordena2{
-  display: flex;
-  flex-direction: column;
 }
 
 .t{
@@ -116,3 +196,9 @@ h1{
   margin-left:-60px;
   border: 10px inset rgb(5, 142, 183);
 }
+
+.tam{
+  font-family: $blackops;
+  width: 50px;
+  text-align: center;
+} */
