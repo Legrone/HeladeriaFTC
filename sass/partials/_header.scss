@@ -70,6 +70,5 @@ header {
 
 .carousel-item{
   @extend .logohelado;
-  border: 10px inset rgb(5, 142, 183);
   transition: transform .6s ease-in-out;
 }
