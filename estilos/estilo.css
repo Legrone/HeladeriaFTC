@@ -63,6 +63,7 @@ header {
 
 .logo {
   border: 10px inset blue;
+  width: 60%;
 }
 
 .logo-sabores {
@@ -76,9 +77,9 @@ header {
 }
 
 .frase {
-  color: #A8DADC;
+  color: #030246;
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 .animate__animated {
@@ -96,6 +97,10 @@ header {
 
 .carousel-item {
   transition: transform 0.6s ease-in-out;
+}
+
+.logo2 {
+  display: none;
 }
 
 /* main */
@@ -353,6 +358,19 @@ footer {
     border: 3px solid #4fc3f7;
     margin: 40px;
     width: 75%;
+  }
+  .logo {
+    display: none;
+  }
+  .logo2 {
+    display: block;
+    width: 300px;
+    border-radius: 10px;
+    border: 10px inset blue;
+    margin: 40px;
+  }
+  .frase {
+    font-size: 2em;
   }
 }
 /* TABLET */

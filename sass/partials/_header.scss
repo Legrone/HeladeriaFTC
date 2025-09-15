@@ -33,6 +33,7 @@ header {
 .logo {
   @extend .logotravel;
   border: 10px inset blue;
+  width:60%;
 }
 
 .logo-sabores {
@@ -48,9 +49,9 @@ header {
 }
 
 .frase {
-  color: #A8DADC;
+  color: #030246;
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 3em;
 }
 
 .animate__animated{
@@ -71,4 +72,8 @@ header {
 .carousel-item{
   @extend .logohelado;
   transition: transform .6s ease-in-out;
+}
+
+.logo2{
+  display:none;
 }
