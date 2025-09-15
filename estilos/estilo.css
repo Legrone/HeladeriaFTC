@@ -383,11 +383,21 @@ footer {
     display: block;
   }
   .grid-tamanos {
-    display: flow-root;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
   }
   .negro {
     width: 60%;
+  }
+  .eleccion {
+    display: none;
+  }
+  .mobile-img {
+    display: flex;
+    border: 3px solid #4fc3f7;
+    margin: 50px;
+    width: 75%;
   }
 }
 
