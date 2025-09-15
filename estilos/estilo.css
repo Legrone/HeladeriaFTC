@@ -177,22 +177,24 @@ h1 {
   flex-wrap: wrap;
 }
 
-.item {
+.pre {
   text-align: center;
 }
 
-.item img {
+.pre img {
+  width: 220px;
+  height: 200px;
   border: 3px solid #19a0ff;
   border-radius: 10px;
   object-fit: cover;
 }
 
-.item ul {
+.pre ul {
   list-style-type: disc;
   margin-top: 10px;
   padding-left: 20px;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .grid-tamanos {
@@ -201,6 +203,12 @@ h1 {
   gap: 20px;
   align-items: center;
   margin: 40px;
+}
+
+.item img {
+  border: 3px solid #19a0ff;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .item p {
@@ -228,6 +236,10 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 85%;
+}
+
+.mobile-img {
+  display: none;
 }
 
 /* .grid-tamaños{
@@ -301,40 +313,26 @@ footer {
   .ordena2 {
     display: block;
   }
-}
-.logohelado {
-  width: 50px;
-  border-radius: 10px;
-}
-
-.accordion-cremas {
-  font-size: 0.5;
-}
-
-/* .logo-sabores{
-  background-image: url(".../imagen/chocoC/images.jpg");
-} */
-/* PC 1200 */
-@media only screen and (min-width: 769px) and (max-width: 1279px) {
-  header {
+  .logohelado {
+    width: 50px;
+    border-radius: 10px;
+  }
+  .accordion-cremas {
     font-size: 0.5;
   }
-  main {
-    font-size: 0.5s;
-    background-color: rgba(168, 218, 220, 0.9019607843);
+  .grid-tamanos {
+    display: flow;
+    margin: -1px;
   }
-  .listado {
-    display: flex;
-    gap: 200px;
+  .negro {
+    width: 90%;
   }
-  footer {
-    font-size: 0.5;
+  .eleccion {
+    display: none;
   }
-  .orden {
-    display: block;
-  }
-  .ordena2 {
-    display: flex;
+  .pre li {
+    margin: 7px;
+    font-size: 20px;
   }
 }
 /* TABLET */
@@ -363,6 +361,13 @@ footer {
   }
   .ordena2 {
     display: block;
+  }
+  .grid-tamanos {
+    display: flow-root;
+    text-align: center;
+  }
+  .negro {
+    width: 60%;
   }
 }
 

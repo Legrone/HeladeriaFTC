@@ -33,49 +33,36 @@
   .ordena2{
     display:block;
   }
+
+  .logohelado{
+      width: 50px;
+      border-radius: 10px;
+  }
+
+  .accordion-cremas{
+    font-size: 0.5}
+
+  .grid-tamanos{
+    display: flow;
+    margin: -1px;
+  }
+
+  .negro{
+    width:90%;
+  }
+
+  .eleccion{
+    display:none;
+  }
+
+  .pre li{
+  margin: 7px;
+  font-size:20px;
+  }
+
 }
 
-.logohelado{
-    width: 50px;
-    border-radius: 10px;
-}
-
-.accordion-cremas{
-  font-size: 0.5}
-
-/* .logo-sabores{
-  background-image: url(".../imagen/chocoC/images.jpg");
-} */
-/* PC 1200 */
-
-@media only screen and (min-width:769px) and (max-width: 1279px){
-  header{
-    font-size: 0.5;
-  }
-
-  main{
-    font-size: 0.5s;
-    background-color: $celeste;
-  }
-
-  .listado{
-  display:flex;
-  gap: 200px;
-  }
-
-
-  footer{
-    font-size: 0.5;
-  }
-
-  .orden{
-    display:block;
-  }
-
-  .ordena2{
-    display:flex;
-  }
-}
+  
 
 /* TABLET */
 
@@ -110,6 +97,15 @@
 
   .ordena2{
     display:block;
-  };
+  }
+
+  .grid-tamanos{
+    display: flow-root;
+    text-align: center;
+  }
+
+  .negro{
+    width: 60%;
+  }
 }
 

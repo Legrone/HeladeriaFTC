@@ -87,22 +87,24 @@ h1{
   flex-wrap: wrap;   
 }
 
-.item {
+.pre {
   text-align: center;
 }
 
-.item img {
+.pre img {
+  width:220px;
+  height: 200px;
   border: 3px solid #19a0ff;
   border-radius: 10px;
   object-fit: cover;
 }
 
-.item ul {
+.pre ul {
   list-style-type: disc;
   margin-top: 10px;
   padding-left: 20px;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 
@@ -113,6 +115,12 @@ h1{
   gap: 20px;
   align-items: center;
   margin: 40px;
+}
+
+.item img {
+  border: 3px solid #19a0ff;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .item p {
@@ -142,7 +150,9 @@ h1{
   width: 85%;
 }
 
-
+.mobile-img{
+  display:none;
+}
 
 
 
