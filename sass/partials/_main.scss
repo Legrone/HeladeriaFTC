@@ -113,9 +113,7 @@ h1{
 .grid-tamanos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  align-items: center;
-  margin: 40px;
+  gap: 5px;
 }
 
 .item img {
@@ -131,7 +129,7 @@ h1{
 }
 
 .negro{
-  width: 115%;
+  width: 65%;
 }
 
 .eleccion{
@@ -156,9 +154,14 @@ h1{
 }
 
 
+.temu{
+  width: 60%;
+}
 
-
-
+.grido{
+  width: 100%;
+  border:3px solid #4fc3f7;
+}
 
 
 

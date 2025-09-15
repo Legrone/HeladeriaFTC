@@ -201,9 +201,7 @@ h1 {
 .grid-tamanos {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  align-items: center;
-  margin: 40px;
+  gap: 5px;
 }
 
 .item img {
@@ -219,7 +217,7 @@ h1 {
 }
 
 .negro {
-  width: 115%;
+  width: 65%;
 }
 
 .eleccion {
@@ -241,6 +239,15 @@ h1 {
 
 .mobile-img {
   display: none;
+}
+
+.temu {
+  width: 60%;
+}
+
+.grido {
+  width: 100%;
+  border: 3px solid #4fc3f7;
 }
 
 /* .grid-tamaños{
@@ -326,7 +333,7 @@ footer {
     margin: -1px;
   }
   .negro {
-    width: 90%;
+    width: 70%;
   }
   .eleccion {
     display: none;
@@ -334,6 +341,18 @@ footer {
   .pre li {
     margin: 7px;
     font-size: 20px;
+  }
+  .temu {
+    padding: 5px;
+  }
+  .grido {
+    width: 65%;
+  }
+  .mobile-img {
+    display: flex;
+    border: 3px solid #4fc3f7;
+    margin: 40px;
+    width: 75%;
   }
 }
 /* TABLET */
