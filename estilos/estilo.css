@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=MedievalSharp&family=Medula+One&display=swap");
-.ayudin, .agradecimiento, .subtitulo, h1, .titulo-principal, .animate__animated {
+.ayudin, .agradecimiento, .subtitulo, h1, .subtitulo2, .titulo-principal, .animate__animated {
   font-family: "Black Ops One", system-ui;
   font-size: 2.5em;
 }
@@ -18,7 +18,7 @@
   border-radius: 10px;
 }
 
-.verdes, .subtitulo, h1 {
+.verdes, .subtitulo, h1, .subtitulo2 {
   color: #004d40;
   margin-bottom: 30px;
 }
@@ -255,42 +255,53 @@ h1 {
   border: 3px solid #4fc3f7;
 }
 
-/* .grid-tamaños{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-areas: 
-    "a b c"
-    "a d e"
-    "f . .";
-  gap: 20px;
-  align-items: center;
-  justify-items: center;
-}
-
-.t{
-  width: 80%;
+.contacto {
   display: flex;
+  padding: 10%;
+  gap: 30%;
+}
+
+.pedido {
+  flex: 2;
+  display: grid;
+  justify-content: space-between;
+  justify-items: start;
+}
+
+.quejas {
+  flex: 1;
+  display: grid;
+  flex-wrap: wrap;
   justify-content: start;
-  border: 10px inset rgb(5, 142, 183);
+  justify-items: stretch;
 }
 
-.cr{
-  width:80%;
+input, textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
 }
 
-.ba{
-  width: 80%;
-  display: block;
-  justify-content: flex-start;
-  margin-left:-60px;
-  border: 10px inset rgb(5, 142, 183);
+textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
-.tam{
-  font-family: $blackops;
-  width: 50px;
-  text-align: center;
-} */
+.subtitulo2 {
+  font-size: 4em;
+}
+
+label {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Black Ops One", system-ui;
+  color: blue;
+  margin-bottom: 8px;
+}
+
 /* footer */
 footer {
   background-image: linear-gradient(to top, white, rgba(168, 218, 220, 0.9019607843));
@@ -371,6 +382,20 @@ footer {
   }
   .frase {
     font-size: 2em;
+  }
+  .contacto {
+    display: grid;
+    padding: 5%;
+    gap: 4px;
+  }
+  .quejas {
+    display: grid;
+  }
+  label {
+    font-size: 1.5em;
+  }
+  .subtitulo2 {
+    font-size: 2.5em;
   }
 }
 /* TABLET */

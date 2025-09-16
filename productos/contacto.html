@@ -21,9 +21,51 @@
     <h2 class="frase">asi podemos mejorar juntos</h2>
   </header>
 
-  <main>
-    
+  <main class="contacto">
+
+    <!-- Sector Pedidos -->
+    <section style="flex: 2;">
+      <h1 class="subtitulo2">Realizá tu pedido</h1>
+      <form>
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+          <label for="celular">Celular:</label>
+          <input type="tel" id="celular" name="celular" placeholder="Ej: 1123456789" required>
+        </div>
+
+        <div>
+          <label for="pedido">Pedido:</label>
+          <textarea id="pedido" name="pedido" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Enviar pedido</button>
+      </form>
+    </section>
+
+    <!-- Sector Quejas -->
+    <section style="flex: 1;">
+      <h1 class="subtitulo2">Quejas</h1>
+      <form>
+        <div>
+          <label for="nombre-queja">Nombre:</label>
+          <input type="text" id="nombre-queja" name="nombre-queja" required>
+        </div>
+
+        <div>
+          <label for="reclamo">Reclamo:</label>
+          <textarea id="reclamo" name="reclamo" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Enviar queja</button>
+      </form>
+    </section>
+
   </main>
+
 
   <footer>
     <a class="boton" href="../index.html">Volver a la página principal</a>
