@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolates - Heladería FTC</title>
+  <link rel="stylesheet" href="../estilos/estilo.css" />
+
+    <!-- link de bs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- Link scss -->
+  <link rel="stylesheet" href="../estilos/estilo.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo-principal">COMENTE-NOS</h1>
+    <h2 class="frase">Para que possamos melhorar juntos</h2>
+  </header>
+
+  <main class="contacto">
+
+    <!-- Sector Pedidos -->
+    <section style="flex: 2;">
+      <h1 class="subtitulo2">Faça seu pedido</h1>
+      <form>
+        <div>
+          <label for="nombre">Nome:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+          <label for="celular">Celular:</label>
+          <input type="tel" id="celular" name="celular" placeholder="Ej: 1123456789" required>
+        </div>
+
+        <div>
+          <label for="pedido">Ordem:</label>
+          <textarea id="pedido" name="pedido" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Enviar pedido</button>
+      </form>
+    </section>
+
+    <!-- Sector Quejas -->
+    <section style="flex: 1;">
+      <h1 class="subtitulo2">Reclamações</h1>
+      <form>
+        <div>
+          <label for="nombre-queja">Nome:</label>
+          <input type="text" id="nombre-queja" name="nombre-queja" required>
+        </div>
+
+        <div>
+          <label for="reclamo">Alegar:</label>
+          <textarea id="reclamo" name="reclamo" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Enviar reclamação</button>
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <a class="boton" href="./porindex.html">Voltar para a página principal</a>
+  </footer>
+
+  <!-- Hoja de java de bs -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

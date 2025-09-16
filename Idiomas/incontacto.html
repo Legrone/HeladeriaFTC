@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chocolates - Heladería FTC</title>
+  <link rel="stylesheet" href="../estilos/estilo.css" />
+
+    <!-- link de bs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- Link scss -->
+  <link rel="stylesheet" href="../estilos/estilo.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo-principal">COMMENT US</h1>
+    <h2 class="frase">So we can improve together</h2>
+  </header>
+
+  <main class="contacto">
+
+    <!-- Sector Pedidos -->
+    <section style="flex: 2;">
+      <h1 class="subtitulo2">Place your order</h1>
+      <form>
+        <div>
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+          <label for="celular">Cellphone:</label>
+          <input type="tel" id="celular" name="celular" placeholder="Ej: 1123456789" required>
+        </div>
+
+        <div>
+          <label for="pedido">Order:</label>
+          <textarea id="pedido" name="pedido" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Send order</button>
+      </form>
+    </section>
+
+    <!-- Sector Quejas -->
+    <section style="flex: 1;">
+      <h1 class="subtitulo2">Complaints</h1>
+      <form>
+        <div>
+          <label for="nombre-queja">Name:</label>
+          <input type="text" id="nombre-queja" name="nombre-queja" required>
+        </div>
+
+        <div>
+          <label for="reclamo">Claim:</label>
+          <textarea id="reclamo" name="reclamo" rows="4" required></textarea>
+        </div>
+
+        <button type="button">Submit complaint</button>
+      </form>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <a class="boton" href="./inindex.html">Return to the main page</a>
+  </footer>
+
+  <!-- Hoja de java de bs -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
